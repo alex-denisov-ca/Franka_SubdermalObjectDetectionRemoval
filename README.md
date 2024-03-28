@@ -9,8 +9,11 @@ The project uses the Franka robot alongside a ultrasound probe to scan a section
 The steps and instruction in this section assume you have completed the the Hardware, Dependancies and Setup portion of the readme, found below.
 
 (1): Automated scanning of the medium in a rectangular pattern
+
      - when the operator sees a foreign object on the ultrasound they press the space bar
+
      - the location is saved in a text file for further insepction and adjustment
+     
      - this simulates scanning a large portion of the body to locate multiple peices of shrapenal
 
     Run:
@@ -24,7 +27,9 @@ The steps and instruction in this section assume you have completed the the Hard
 
 (2): Fine position finding 
      - Now that you know the approximate position of the shrapenel use the keyboard to locate it
+
      - Once the operator has found the center of the object they will press 'space' and save the coordinates
+
      - The saved coordinats will also be saved to at text file; both to handle nultiple peices of shrapenel, or multiple grasping attmpts of the same object
      
      Inputs:
@@ -43,10 +48,15 @@ The steps and instruction in this section assume you have completed the the Hard
         Escape - stops and closes the program
 
 (3): Object extraction
+
      - The user will be promted for a raw x,y position
+
      - The operator will enter the x,y positons determined from the previous step
+
      - The robot will then automatically go to its home position, open gripper, go to the object, close gripper, and extract it
+
      - If the robot fails to grasp and extract the object repeat step 2, or use alternative object positions already collcted in the previous step
+
      - Press space bar to open the gripper and drop the extracted object (or simply open the gripper for another iteration)
 
     Inputs:
@@ -66,7 +76,7 @@ Once assembled, there is distance of 150mm from the flange of the robot to the e
 It should also be noted that the center of the ultrasound probe is 60mm away from the center of the end-effector; 
 with any tray or working area there are mechanical limitations which result in spaces where the probe cannot scan / the grippers cannot reach.
 
-## **Dependancies*
+## **Dependancies**
 All files are to be run on a linux kernel,
 Must have at minimum [ncurses-6.0](https://lists.gnu.org/archive/html/info-gnu/2015-08/msg00002.html) installed.
 
