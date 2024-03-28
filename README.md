@@ -1,4 +1,4 @@
-# Robot-assisted Subdermal Foreign Object Detection and Removal For Franka Panda
+# Robot-assisted Subdermal Foreign Object Detection and Removal For Franka Panda Robot
 
 
 ## **Introduction and Quick Start Guide**
@@ -101,6 +101,6 @@ inside the provided docker container.
 ## **Citation**
 This codebase is modified from the one provided in CSC496H5 at the University of Toronto Missisauga, taught by Professor Lueder Kahrs and provided by Ruthrash Hari.
 
-
+A
 
 
