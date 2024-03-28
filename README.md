@@ -84,7 +84,7 @@ TODO TODO
 
 
 ## **Hardware**
-For hardware used in the project, go to the "Models" directory and see "Hardware_Instructions.pdf" for printing and assembly information.
+For hardware used in the project, go to the "Models" directory and see [Hardware_Instructions.pdf](https://github.com/alex-denisov-ca/Franka_SubdermalObjectDetectionRemoval/blob/main/Models/Hardware_Instructions.pdf) for printing and assembly information.
 
 Once assembled, there is a distance of 150mm from the flange of the robot to the ends of the grippers; set these values in Franka Desk.
 It should also be noted that the center of the ultrasound probe is 60mm away from the center of the end-effector; 
