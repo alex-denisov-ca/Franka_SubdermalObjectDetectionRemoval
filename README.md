@@ -24,16 +24,22 @@ Inside the docker container go to `/root/git/scratchpad/csc496/build` and run `r
 then run `run.sh` in the terminal; this script links all the steps together onto a single terminal, follow instructions and prompts that show up on the terminal.
     There will be four distinct steps, with an "operator: sitting at the terminal and ultrasound screen, and a "guide" watching the robot and manning the enabling device.
 
-    *(0): Setting the origin of the scanner
-        - The guide will move the probe to the bottom left of the tray farthest away from the robot and to the side that it has its power ports and follow instruction on screen.
-    *(1): Rough scanning mode
-        - the probe will begin scanning the working area, the operator should press space when an anomally is detected
-    *(2): Keyboard guidance mode
-        - The operator will have to navigate to the rough position and center the object on the ultrasound, this should be done with the help of the guide to avoid collisions.
-    *(2.5): (Suggested) Remove the ultrasound probe from the holder      
-    *(3): Object Retreival
-        - after the operator has identifed the object then the robot will attemp to grasp the object, upon completin it will home and drop the object for the guide to catch upon operator approval. 
+    (0): Setting the origin of the scanner
+        - The guide will move the probe to the bottom left of the tray farthest away from the robot
+           and to the side that it has its power ports and follow instruction on screen.
 
+    (1): Rough scanning mode
+        - the probe will begin scanning the working area, the operator should press space 
+          when an anomally is detected.
+
+    (2): Keyboard guidance mode
+        - The operator will have to navigate to the rough position and center the object on the ultrasound, 
+          this should be done with the help of the guide to avoid collisions.
+
+    (2.5): (Suggested) Remove the ultrasound probe from the holder.      
+
+    (3): Object Retreival
+        - after the operator has identifed the object then the robot will attemp to grasp the object, upon completin it will home and drop the object for the guide to catch upon operator approval. 
 
 
 ## **Running Details**
