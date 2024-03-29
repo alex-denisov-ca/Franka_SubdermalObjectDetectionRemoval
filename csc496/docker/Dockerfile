@@ -19,14 +19,14 @@ RUN echo "cloning and building libfranka"
 RUN apt-get update && apt-get install -y \
     build-essential cmake git libpoco-dev libeigen3-dev
 
-# RUN cd /root/git  \   
-#     && git clone --recursive https://github.com/frankaemika/libfranka \
-#     && cd libfranka \
-#     && mkdir build \ 
-#     && cd build \ 
-#     && cmake .. -DCMAKE_BUILD_TYPE=Release \
-#     && make -j4 \
-#     && make install 
+RUN cd /root/git  \   
+    && git clone --recursive https://github.com/frankaemika/libfranka \
+    && cd libfranka \
+    && mkdir build \ 
+    && cd build \ 
+    && cmake .. -DCMAKE_BUILD_TYPE=Release \
+    && make -j4 \
+    && make install 
 
 RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 RUN echo "export FRANKA_IP=192.168.1.107" >> ~/.bashrc

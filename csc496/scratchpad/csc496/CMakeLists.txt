@@ -43,18 +43,12 @@ link_directories(${Franka_INCLUDE_DIRS})
 #[[build tests]]
 
 set(RUNNERS
-    # medcvr_point_collection    
-    # gravity_compensation
-    # impedance
-    # generate_voxel_pose
-    # needle_entry_p_to_p
+
     set_origin
     autoscan_rough_capture
     keyboard_input_capture
     grasp_given_xyz
-    # sphere_fit_ad_yc
-    # nullspace_controller
-    # brain_insertion
+
 )
 
 foreach(runner ${RUNNERS})
