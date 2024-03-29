@@ -21,5 +21,5 @@ authors:
 repository-code: >-
   https://github.com/alex-denisov-ca/Franka_SubdermalObjectDetectionRemoval
 license: 0BSD
-commit: TODO
+commit: 1de4714
 date-released: '2024-03-29'
