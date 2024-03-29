@@ -6,6 +6,8 @@ This project is for use with the Franka Emika Panda cobot and the Healson C30L u
 The project uses the Franka robot alongside an ultrasound probe to scan a section of ultrasound gel or water; the medium will mimic human flesh. Within the medium, one or more metallic bolts or other objects will simulate shrapnel subdermally embedded. 
 
 *(0): Startup*<br />
+Git clone and build the project, specificslly the csc496 directory of the project in the same directory that contains the Franka Panda's [libfranka](https://github.com/frankaemika/libfranka) directory.
+
 Connect to the Franka control interface and ensure everything is properly initialized; joints are unlocked, and the robot is not reflex-locked or user-stopped.
 First, set the z component of the end effector to 150mm in Franka Desk, also measure and set the weight of the Franka hand including the probe, grippers and holders (print and user depedant).
 Second, enable the [FCI](https://frankaemika.github.io/docs/getting_started.html)
@@ -119,6 +121,8 @@ For running in custom environments, you will also have to measure dimensions and
 
 ## **Dependencies**
 All files are to be run on a Linux real-time kernel.
+The github repo OR the csc496 directory included in the repo must be in the same directory as [libfranka](https://github.com/frankaemika/libfranka); i.e in some directory X, there will X/libfranka, X/csc496, X/Models, etc.
+
 If you are NOT running the provided docker container, you will have to have at minimum [ncurses-6.0](https://lists.gnu.org/archive/html/info-gnu/2015-08/msg00002.html) installed; 
 
 ## **Citation**
