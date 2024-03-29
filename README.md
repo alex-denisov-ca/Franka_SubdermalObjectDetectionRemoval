@@ -51,7 +51,7 @@ if, for some reason, you don't use `run.sh`, then you can run each step individu
      - use for manually running scan from origin<br />
 
     Run manually:
-        ./set_origin *YOUR_FRANKA_IP* 
+        ./set_origin <YOUR_FRANKA_IP>
 
     Controls:
         Enter - saves the position
@@ -63,7 +63,7 @@ if, for some reason, you don't use `run.sh`, then you can run each step individu
      - this simulates scanning a large portion of the body to locate multiple pieces of shrapenal<br />
 
     Run manually:
-        ./run_autoscan_rough_capture *YOUR_FRANKA_IP* *<Origin X>* *<Origin Y>* *<Origin Z>*
+        ./run_autoscan_rough_capture <YOUR_FRANKA_IP> <Origin X> <Origin Y> <Origin Z>
 
     Controls:
         Space - saves the position
@@ -74,7 +74,7 @@ if, for some reason, you don't use `run.sh`, then you can run each step individu
      - The saved coordinates will also be saved to a text file; both to handle multiple pieces of shrapnel, or multiple grasping attempts of the same object <br />
     
     Run:
-        ./run_keyboard_input_capture *YOUR_FRANKA_IP*  *<X>* *<Y>* *<Z>*
+        ./run_keyboard_input_capture <YOUR_FRANKA_IP>  <X> <Y> <Z>
 
      Controls:
         W - moves forward (towards the robots base)
@@ -95,8 +95,8 @@ if, for some reason, you don't use `run.sh`, then you can run each step individu
      - If the robot fails to grasp and extract the object, repeat step 2 or use alternative object positions already collected in the previous step<br />
      - Press the space bar to open the gripper and drop the extracted object (or simply open the gripper for another iteration)<br />
   
-    Run:
-        ./run_keyboard_input_capture *YOUR_FRANKA_IP*  *<X>* *<Y>* *<Z>* 
+    Run manually:
+        ./run_keyboard_input_capture <YOUR_FRANKA_IP>  <X> <Y> <Z> 
         
     Inputs:
         x position - raw x position of ultrasound detected object
