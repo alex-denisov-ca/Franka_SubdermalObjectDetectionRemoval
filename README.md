@@ -139,4 +139,12 @@ In testing the code, it is best to perform the tests without a medium inside the
 
 We have run through all steps of the project multiple times using a 15mm M6 screw (shrapnel) embedded in ultrasound gel (medium), resulting in successful objection detection at all stages and removal from the medium. 
 
+Our set_origin code works at any point in the working space; it simply records the x,y, and z components of the gripper and saves them to a text file.
+
+We ran our rough scanning code with the tray affixed at different positions on two robots; the scanning code given the set_origin program will adapt to the z offset and work with multiple volumes of the medium. 
+
+We ran keyboard extraction in many envrioments, it may fail if the operator runs the gripper into the wall fo the tray or another rigid object, fine tuning for different application is possible by setting how much the gripper moves on each keypress.
+
+We varied the placement of the shrapnel inside the medium, within the mechanial boundaries of the gripper and where successful in extracting the bolt; the bolt was succesfully picked up in both the laying down and  upright position. Although, some orentiations are untested, such as the bolt laying at a 45 degree angle; making it hard to pick up and easily slide away from the gripper jaws. 
+
 If the program is unsuccessful, there may be times that the terminal running the program will freeze to an orphan thread run by one of the members. It is also important to move the robot between runs to ensure there is no reflex-lock and also to not put excessive force on the robot while it's moving and running.
