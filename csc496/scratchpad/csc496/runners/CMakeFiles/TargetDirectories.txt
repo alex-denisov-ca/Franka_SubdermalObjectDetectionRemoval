@@ -1,0 +1,15 @@
+/root/git/scratchpad/csc496/runners/CMakeFiles/rebuild_cache.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/edit_cache.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_medcvr_point_collection.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_impedance.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/follower.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_follower_franka.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_leader_franka.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_generate_voxel_pose.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/ik.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/franka_common.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/network_client.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/network_server.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/leader.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_gravity_compensation.dir
+/root/git/scratchpad/csc496/runners/CMakeFiles/run_nullspace_control.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libik.a  CMakeFiles/ik.dir/src/ik.cpp.o
+/usr/bin/ranlib libik.a
