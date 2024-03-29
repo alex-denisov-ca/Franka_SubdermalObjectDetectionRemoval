@@ -91,7 +91,7 @@ It should also be noted that the center of the ultrasound probe is 60mm away fro
 with any tray or working area, there are mechanical limitations which result in spaces where the probe cannot scan / the grippers cannot reach.
 
 For running in custom enrionments, you will also have to measure dimensions and the coordinate of your working space;
-by default, the top left of the board is placed 32.5cm away from the base plate of the robot (13 M6 1" screw holes away)
+this should be done in `set_origin` but it may be necessary to manually tweak code if your tray is larger or smaller than the one provided to work with the auto scan feature.
 
 ## **Dependencies**
 All files are to be run on a Linux real-time kernel.
@@ -101,6 +101,6 @@ inside the provided docker container.
 ## **Citation**
 This codebase is modified from the one provided in CSC496H5 at the University of Toronto Missisauga, taught by Professor Lueder Kahrs and provided by Ruthrash Hari.
 
-A
+Citation of this specific project is available in the about section of the github project, or the CITATION.cff file.
 
 
