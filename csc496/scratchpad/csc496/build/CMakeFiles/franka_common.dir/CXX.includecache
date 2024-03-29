@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/common.h
+franka/robot.h
+-
+franka/model.h
+-
+franka/robot_state.h
+-
+eigen3/Eigen/Core
+-
+iostream
+-
+iterator
+-
+thread
+-
+atomic
+-
+fstream
+-
+
+/root/git/scratchpad/csc496/src/common.cpp
+common.h
+/root/git/scratchpad/csc496/src/common.h
+

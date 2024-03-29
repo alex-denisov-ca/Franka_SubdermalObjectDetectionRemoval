@@ -1,0 +1,8 @@
+/root/git/scratchpad/csc496/build/CMakeFiles/edit_cache.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/ik.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/franka_common.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/run_grasp_given_xyz.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/run_keyboard_input_capture.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/rebuild_cache.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/run_autoscan_rough_capture.dir
+/root/git/scratchpad/csc496/build/CMakeFiles/run_set_origin.dir
