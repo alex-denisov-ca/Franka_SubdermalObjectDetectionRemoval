@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/git/scratchpad/csc496/runners/sphere_fit_ad_yc.cpp
+array
+-
+eigen3/Eigen/Dense
+-
+iostream
+-
+array
+-
+vector
+-
+
