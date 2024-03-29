@@ -129,3 +129,14 @@ If you are NOT running the provided docker container, you will have to have at m
 This codebase is modified from the one provided in CSC496H5 at the University of Toronto Mississauga, taught by Professor Lueder Kahrs and provided by Ruthrash Hari; based on the Franka Emika [libfranka repo.](https://github.com/frankaemika/libfranka)
 
 Citation is available in the About section of the GitHub project or the CITATION.cff file.
+
+## **Testing**
+We have tested this repo using the Franka Panda robot, the Healson C30L ultrasound probe, and all stl files provided in this repository. Tests have been running on multiple robots; different robots have different vertical offsets from their base due to mounting variances, and thus, some board parameters need to be tweaked between robots.
+
+When testing, running for the first time, or tweaking the parameters, it is important to always have one person manning the enabling device and developing incrementally with one change at a time. For example, changing the speed; start at a known working speed, then increment it to the desired value, etc.
+
+In testing the code, it is best to perform the tests without a medium inside the tray. We have tested each of the four sections above individually and together with `run.sh`. 
+
+We have run through all steps of the project multiple times using a 15mm M6 screw (shrapnel) embedded in ultrasound gel (medium), resulting in successful objection detection at all stages and removal from the medium. 
+
+If the program is unsuccessful, there may be times that the terminal running the program will freeze to an orphan thread run by one of the members. It is also important to move the robot between runs to ensure there is no reflex-lock and also to not put excessive force on the robot while it's moving and running.
