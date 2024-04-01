@@ -6,7 +6,7 @@ This project is for use with the Franka Emika Panda cobot and the Healson C30L u
 The project uses the Franka robot alongside an ultrasound probe to scan a section of ultrasound gel or water; the medium will mimic human flesh. Within the medium, one or more metallic bolts or other objects will simulate shrapnel subdermally embedded. 
 
 *(0): Startup*<br />
-Git clone and build the project, specificslly the csc496 directory of the project in the same directory that contains the Franka Panda's [libfranka](https://github.com/frankaemika/libfranka) directory.
+Git clone and build the project, specifically the csc496 directory of the project in the same directory that contains the Franka Panda's [libfranka](https://github.com/frankaemika/libfranka) directory.
 
 Connect to the Franka control interface and ensure everything is properly initialized; joints are unlocked, and the robot is not reflex-locked or user-stopped.
 First, set the z component of the end effector to 150mm in Franka Desk, also measure and set the weight of the Franka hand including the probe, grippers and holders (print and user depedant).
