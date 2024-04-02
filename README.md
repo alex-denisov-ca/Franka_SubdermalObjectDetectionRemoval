@@ -98,7 +98,7 @@ if, for some reason, you don't use `run.sh`, then you can run each step individu
      - Press the space bar to open the gripper and drop the extracted object (or simply open the gripper for another iteration)<br />
   
     Run manually:
-        ./grasp_given_xyz.cpp <YOUR_FRANKA_IP>  <X> <Y> <Z> 
+        ./grasp_given_xyz <YOUR_FRANKA_IP>  <X> <Y> <Z> 
         
     Inputs:
         x position - raw x position of ultrasound detected object
